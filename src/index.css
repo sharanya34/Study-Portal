@@ -1,0 +1,236 @@
+@import url("https://p.typekit.net/p.css?s=1&k=pkj4qrr&ht=tk&f=139.140.173.175.176.13407&a=85920228&app=typekit&e=css");
+
+@font-face {
+    font-family: "proxima-nova";
+    src: url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff2"),
+        url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff"),
+        url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 239, 239);
+    margin: 0px;
+    overflow-x: hidden;
+
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 0 16px 0 rgb(120, 119, 119);
+    font-size: 20px;
+    color: #005288;
+    position: sticky;
+    font-family: "Proxima-Nova", "bebas-neue" !important;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    z-index: 100;
+    padding: 15px;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header #i-button {
+    margin-left: 74%;
+    background-color: #005288;
+    color: #fff;
+    border-radius: 7px;
+
+}
+
+.container {
+    margin-left: 12px;
+    height: auto;
+    overflow: auto;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    border: 2px solid #005288;
+    margin: 7px;
+    padding: 7px;
+    width: 13%;
+    height: 150px;
+    background-color: white;
+    font-family: "Proxima-Nova", "bebas-neue" !important;
+    font-size: 12px;
+    overflow-x: auto;
+    color: #005288;
+}
+
+.card img {
+    width: 100%;
+    height: 71px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    border: 1px solid #005288;
+    border-radius: 3px;
+    margin-left: 84%;
+    margin-top: 10px;
+}
+
+.btn button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #005288;
+    cursor: pointer;
+}
+
+.btn button.active {
+    background-color: #005288;
+    color: #fff;
+}
+#admin-toggle {
+    background-color: #005288;
+    color: #fff;
+    border-radius: 7px;
+   margin: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+.btn-icon {
+    margin-left: 81%;
+
+    background-color: #fff;
+}
+
+.btn-icon:hover {
+    cursor: pointer;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    
+    border: none;
+    cursor: pointer;
+}
+
+
+#save {
+  background-color: #005288;
+  color: white;
+  border-radius: 3px;
+  margin-top: 5px;
+  
+}
+td {
+  padding: 10px;
+}
+table {
+  padding: 10px;
+}
+input {
+  height: 30px;
+  width: 200px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top:0px;
+    right: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.delete {
+    position: absolute; 
+    top:0px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 14%;
+    }
+
+    .btn {
+        width: 30%;
+        margin-left: 70%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 14px;
+    }
+
+    .card {
+        width: 100%;
+ }
+}

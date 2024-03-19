@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Data Portal</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo.jpeg" />
+        Study Portal
+        <button id="i-button">
+            Add
+        </button>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <span id="close" class="close-button">&times;</span>
+                <div class="form">
+                    <h2>Add Data</h2>
+                    <table>
+                        <tr>
+                            <td><label for="text">Title</label></td>
+                            <td><input type="text" id="text" placeholder="Ex: c" autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="url">URL</label></td>
+                            <td><input type="url" id="url" placeholder="Ex: https://www.example.com" autocomplete="off">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="image">Upload Image</label></td>
+                            <td> <input id="imageInput" type="file"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button id="save">Save Changes</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <button id="admin-toggle" onclick="toggleAdminMode()">
+            <i class="fas fa-user-shield"></i> Delete
+        </button>
+    </header>
+    <div class="btn">
+        <button id="test" onclick="btn(1)" class="active">Language</button>
+        <button id="production" onclick="btn(2)">Cources</button>
+    </div>
+    <div class="container" id="container"></div>
+    <script src="script.js"></script>
+   
+</body>
+
+</html>

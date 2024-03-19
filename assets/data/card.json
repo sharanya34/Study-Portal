@@ -1,0 +1,169 @@
+{
+    "card": {
+
+
+    "test": [  
+{
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "imageName":"../assets/images/html.jpeg",
+    "text": "HTML"
+},
+{
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "imageName":"../assets/images/css.jpeg",
+    "text": "CSS"
+},
+{
+    "url": "https://developer.mozilla.org/en-US/docs/Web/javascript",
+    "imageName":"../assets/images/javascript.jpeg",
+    "text": "JavaScript"
+},
+{
+    "url": "https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm",
+    "imageName":"../assets/images/c.jpeg",
+    "text": "C"
+},
+{
+    "url": "https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm",
+    "imageName":"../assets/images/c++.jpeg",
+    "text": "C++"
+},
+{
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Python",
+    "imageName":"../assets/images/python.jpeg",
+    "text": "Python"
+},
+{
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Java",
+    "imageName":"../assets/images/java.jpeg",
+    "text": "Java"
+},
+{
+    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "imageName":"../assets/images/chash.jpeg",
+    "text": "C#"
+},
+{
+    "url": "https://www.swift.org/documentation/",
+    "imageName":"../assets/images/swift.jpeg",
+    "text": "Swift"
+},
+{
+    "url": "https://go.dev/doc/",
+    "imageName":"../assets/images/go.jpeg",
+    "text": "GO"
+},
+{
+    "url": "https://doc.rust-lang.org/stable/",
+    "imageName":"../assets/images/rust.jpeg",
+    "text": "Rust"
+},
+{
+    "url": "https://www.ruby-lang.org/en/documentation/",
+    "imageName":"../assets/images/ruby.jpeg",
+    "text": "Ruby"
+},
+{
+    "url": "https://www.php.net/docs.php",
+    "imageName":"../assets/images/php.jpeg",
+    "text": "pHp"
+},
+{
+    "url": "https://dev.mysql.com/doc/",
+    "imageName":"../assets/images/sql.jpeg",
+    "text": "SQL"
+},
+{
+    "url": "https://devdocs.io/bash/",
+    "imageName":"../assets/images/bash.jpeg",
+    "text": "Bash"
+},
+{
+    "url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
+    "imageName":"../assets/images/typescript.jpeg",
+    "text": "TypeScript"
+},
+{
+    "url": "https://www.r-project.org/other-docs.html",
+    "imageName":"../assets/images/r.jpeg",
+    "text": "R"
+}
+    ],
+
+
+    "production": [  
+{
+    "url": "https://www.w3schools.com/dsa/index.php",
+    "imageName":"../assets/images/dsa.jpeg",
+    "text": "Data Structures and Algorithm"
+},
+{
+    "url": "https://www.w3schools.com/aws/aws_cloudessentials_cloudcomputing.php",
+    "imageName":"../assets/images/cloud.jpeg",
+    "text": "Cloud Computing"
+},
+{
+    "url": "https://www.w3schools.com/training/aws/introduction-to-blockchain.php",
+    "imageName":"../assets/images/blockchain.jpeg",
+    "text": "Blockchain"
+},
+{
+    "url": "https://www.w3schools.com/ai/ai_whatis.asp",
+    "imageName":"../assets/images/ai.jpeg",
+    "text": "AI"
+},
+{
+    "url": "https://www.w3schools.com/ai/ai_machine_learning.asp",
+    "imageName":"../assets/images/machine.jpeg",
+    "text": "Machine Learning"
+},
+{
+    "url": "https://www.w3schools.com/aws/aws_devops.php",
+    "imageName":"../assets/images/devops.jpeg",
+    "text": "DevOps"
+},
+{
+    "url": "https://www.w3schools.com/w3css/w3css_mobile.asp",
+    "imageName":"../assets/images/mobile.jpeg",
+    "text": "Mobile App Development"
+},
+{
+    "url": "https://www.w3schools.com/cybersecurity/index.php",
+    "imageName":"../assets/images/cyber.jpeg",
+    "text": "Cyber Security"
+},
+{
+    "url": "https://www.w3schools.in/sdlc/software-development-life-cycle-sdlc",
+    "imageName":"../assets/images/software.jpeg",
+    "text": "Software Development"
+},
+{
+    "url": "https://www.w3schools.com/datascience/default.asp",
+    "imageName":"../assets/images/data.jpeg",
+    "text": "Data Science"
+},
+{
+    "url": "https://www.w3schools.blog/computer-network",
+    "imageName":"../assets/images/computer.jpeg",
+    "text": "Computer Networking"
+},
+{
+    "url": "https://www.w3schools.com/training/aws/introduction-to-aws-iot.php",
+    "imageName":"../assets/images/iot.jpeg",
+    "text": "IOT"
+},
+{
+    "url": "https://www.w3schools.in/software-testing/tutorials/",
+    "imageName":"../assets/images/testing.jpeg",
+    "text": "Software Testing"
+},
+{
+    "url": "https://www.w3schools.com/whatis/",
+    "imageName":"../assets/images/web.jpeg",
+    "text": "Web Development"
+}
+
+    ]
+}
+    
+}
